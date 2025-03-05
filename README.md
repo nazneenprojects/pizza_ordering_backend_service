@@ -1,0 +1,2 @@
+# pizza_ordering_backend_service
+Django learning project - pizza_ordering_backend_service
