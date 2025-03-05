@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 with open('/home/zermatt/Documents/pizza_order_backend_service/pizza_project/data.json', 'r') as f:
     PIZZA_MENU = json.load(f)['pizza_menu']
 
-
+@csrf_exempt
 def get_menu(request):
     """
     Fetch menu items.
