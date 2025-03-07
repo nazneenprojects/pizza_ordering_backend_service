@@ -5,7 +5,7 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
 # Load pizza menu from JSON file
-with open('/home/zermatt/Documents/pizza_order_backend_service/pizza_project/data.json', 'r') as f:
+with open('/data.json', 'r') as f:
     PIZZA_MENU = json.load(f)['pizza_menu']
 
 @csrf_exempt
